@@ -1,0 +1,16 @@
+.ForeCastForday {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.userGroup-clothing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  min-width: 400px;
+  box-sizing: border-box;
+ 
+}

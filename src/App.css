@@ -1,0 +1,74 @@
+.card_container {
+  width: 90%;
+  margin: 40px auto 20px;
+}
+
+.inner_card_container {
+  background-color: rgb(32, 43, 59);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.header_text {
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0px;
+  span {
+    font-size: 20px;
+    color: #b0b4b8;
+  }
+ 
+}
+
+.text_bold {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.text_lighter {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.sub_header {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0;
+  color: rgb(237, 237, 237);
+}
+
+.text_red {
+  color: red;
+}
+
+.mt_4px {
+  margin-top: 4px;
+}
+
+.mt_8px {
+  margin-top: 8px;
+}
+
+.mt_16px {
+  margin-top: 16px;
+}
+
+.mr_24px {
+  margin-right: 24px;
+}
+.ml_8px{
+  margin-left: 8px;
+}
+.ml_12px{
+  margin-left: 12px;
+}
+.ml_14px{
+  margin-left: 14px;
+}

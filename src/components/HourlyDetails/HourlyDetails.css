@@ -1,0 +1,51 @@
+.custom_table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-top: 20px;
+}
+
+.custom_table th,
+.custom_table td {
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(32, 43, 59);
+  border-bottom: 4px solid rgb(11, 19, 30);
+}
+
+.custom_table th {
+  font-weight: bold;
+  padding: 20px 5px;
+  font-size: 18px;
+  background-color: rgb(
+    32,
+    43,
+    59
+  );
+}
+
+.custom_table tr {
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.custom_table th:first-child {
+  border-top-left-radius: 16px;
+}
+
+.custom_table th:last-child {
+  border-top-right-radius: 16px;
+}
+
+.custom_table tr:last-child {
+  td:first-child {
+    border-bottom-left-radius: 16px;
+  }
+  td:last-child {
+    border-bottom-right-radius: 16px;
+  }
+}
+
+.custom_table tr:last-child {
+  margin-bottom: 0; /* Remove margin from the last row */
+}

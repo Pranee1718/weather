@@ -1,0 +1,28 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+ 
+deploy:
+  stage: deploy
+  script:
+    # Replace this with your actual deployment script
+    - echo "Deploying to production..."
+  only:
+    - master

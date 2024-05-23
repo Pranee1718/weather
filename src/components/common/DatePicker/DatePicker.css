@@ -1,0 +1,38 @@
+.date_picker {
+  background-color: rgb(32, 43, 59);
+  border-radius: 8px;
+  .MuiInputBase-root.MuiOutlinedInput-root {
+    color: white;
+    border-radius: 8px;
+    border: 0px solid transparent !important;
+  }
+  .MuiInputAdornment-root {
+    .MuiButtonBase-root {
+      color: white;
+    }
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.MuiPickersLayout-root {
+  background-color: rgb(32, 43, 59);
+  .MuiButtonBase-root {
+    color: white;
+    &.Mui-disabled {
+      color: #adadad !important;
+    }
+  }
+  .MuiDayCalendar-weekDayLabel {
+    color: white;
+  }
+  .MuiPickersDay-root:not(.Mui-selected) {
+    border-color: white;
+  }
+}
+
+.MuiPickersPopper-paper {
+  color: white !important;
+}
